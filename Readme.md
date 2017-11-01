@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Денис Шиндарёв](https://up.htmlacademy.ru/htmlcss/19/user/459375).
-* Наставник: [Андрей Островский].
+* Наставник: [Андрей Островский](https://htmlacademy.ru/profile/grandmaus).
 
 ---
 
