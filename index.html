@@ -9,7 +9,7 @@
 			<a class="main-header-logo">
 			<img src="#img/index-logo.svg" width="281" height="39" alt="Логотип DEVICE">
 			</a><br>
-		<form method="get">
+		<form action="#" method="get">
 			<input placeholder="Поиск по сайту" type="search">
 			</form>
 		<ul class="user-navigation">
@@ -32,21 +32,23 @@
 		<h1 class="visually-hidden">DEVICE</h1>
 			<section class="product-slider">
 		<h2 class="visually-hidden">Все о товаре</h2>
-			<img src="img/selfi.img" width="200" height="200" alt="Селфи палка"><br>
+		<ul class="main-image">
+			<li class="image"<img src="img/selfi.img" width="200" height="200" alt="Селфи палка">
+		</ul>
 		<b>Делай селфи, как Бен Стиллер!</b>
 		<p>Самая длинная палка для селфи доступна в нашем магазине<br>
 			Восемь (Восемь, Карл) метров длинной и весом 5 килограмм</p>
 		<p><a class="button learn-more-button" href="#"><b>Подробнее</b></a></p>
-	<table class="table-of-characteristics">
+	<table class="table">
 		<tr class="line-1">
-			<td class="characteristic">8,5 м</td>
-			<td class="characteristic">5 кг</td>
-			<td class="characteristic">Карбон</td>
+			<td class="table-cell">8,5 м</td>
+			<td class="table-cell">5 кг</td>
+			<td class="table-cell">Карбон</td>
 		</tr>
 		<tr class="line-2">
-			<td class="characteristic-description"><span>Длина палки</span></td>
-			<td class="characteristic-description"><span>Вес палки</span></td>
-			<td class="characteristic-description"><span>Материал</span></td>
+			<td class="table-cell-title"><span>Длина палки</span></td>
+			<td class="table-cell-title"><span>Вес палки</span></td>
+			<td class="table-cell-title"><span>Материал</span></td>
 		</tr>
 	</table>
 			</section>
@@ -54,22 +56,22 @@
 	<h2 class="visually-hidden">Популярные товары</h2>
 		<ul class="product-categories">
 			<li class="categories">
-				<a class="popular-goods" href="#">Виртуальная реальность</a>
+				<a class="main-product" href="#">Виртуальная реальность</a>
 			</li>
 			<li class="categories">
-				<a class="popular-goods" href="#">Моноподы для селфи</a>
+				<a class="main-product" href="#">Моноподы для селфи</a>
 			</li>
 			<li class="categories">
-				<a class="popular-goods" href="#">Экшен камеры</a>
+				<a class="main-product" href="#">Экшен камеры</a>
 			</li>
 			<li class="categories">
-				<a class="popular-goods" href="#">Фитнес браслеты</a>
+				<a class="main-product" href="#">Фитнес браслеты</a>
 			</li>
 			<li class="categories">
-				<a class="popular-goods" href="#">Умные часы</a>
+				<a class="main-product" href="#">Умные часы</a>
 			</li>
 			<li class="categories">
-			<a class="popular-goods" href="#">Квадрокоптеры</a>
+				<a class="main-product" href="#">Квадрокоптеры</a>
 			</li>
 		</ul>
 		</section>
@@ -77,10 +79,10 @@
 		<h2 class="visually-hidden">Услуги</h2>
 		<ul class="feature-list">
 			<li class="feature-item">
-			<span class="button services-button">Доставка</span>
+				<span class="button services-button">Доставка</span>
 			</li>
 			<li class="feature-item">
-			<span class="button services-button">Гарантия</span>
+				<span class="button services-button">Гарантия</span>
 			</li>
 			<li class="feature-item">
 				<span class="button services-button">Кредит</span>
@@ -135,12 +137,12 @@
 	<ul class="site-navigation">
 		<li class="footer-services"<a href="#">Доставка</a></li>
 		<li class="footer-services"<a href="#">Гарантия</a></li>
-		<li class="footer-services""<a href="#">Контакты</a></li>
+		<li class="footer-services"<a href="#">Контакты</a></li>
 	</ul>
-	<ul class="footer-social">
-		<li><a class="social-button-facebook" href="#">Фейсбук</a></li>
-		<li><a class="social-button-instagram" href="#">Инстаграмм</a></li>
-		<li><a class="social-button-twitter" href="#">Твиттер</a></li>
+	<ul class="social-list">
+		<li class="social-item"><a class="social-link facebook" href="#">Фейсбук</a></li>
+		<li class="social-item"><a class="social-link instagram" href="#">Инстаграмм</a></li>
+		<li class="social-item"><a class="social-link twitter" href="#">Твиттер</a></li>
 	</ul>  
 	<nav>
 		<a href="#">Войти</a>
@@ -148,17 +150,17 @@
 		<a href="#">Корзина</a>
 	</nav>
 	<p class="footer-contacts">
-		<a href="#">Тел.: +7(495) 495-95-95</a></p>   
+		<a href="tel:+74954959595">Тел.: +7(495) 495-95-95</a> 
 	<a href="#html">Логотип</a>
 	</footer>
 	<section class="modal modal-write-us">
 	<h2 class="visually-hidden">Обратная связь</h2>
 			<p>Ваше имя:</p>
-		<input placeholder="Представтесь, пожалуйста" type="text">
+		<!-- Здесь будет форма -->
 			<p>Текст письма:</p>
-		<input placeholder="В свободной форме" type="text">
+		<!-- Здесь будет форма -->
 			<p>Ваш e-mail:</p>
-		<input placeholder="Для отправки ответа" type="text">
+		<!-- Здесь будет форма -->
 		<!-- Здесь будет форма -->
 		<span class="modal-close">x</span>
 	</section>
