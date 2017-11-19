@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #000000
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+}
+.main-header {
+  background-color: #f7e296;
+}
+.user-navigation a{
+  color: #000000;
+}
+.main-menu-list,
+.main-navigation-list {
+  list-style: none;
+}
+.main-menu-list a,
+.main-navigation-list a {
+  color: #000000;
+}
+.main-navigation {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.main-image {
+  list-style: none;
+}
+.product-slogan {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 47px;
+  line-height: normal;
+  font-weight: 700;
+  color: #000000;  
+}
+.products-text {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #000000;  
+}
+.learn-more-button a {
+  color: #000000;
+}
+.learn-more-button {
+    font-family: "Gilroy", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 0;
+    background: linear-gradient(
+      transparent 40%,
+      #f0c52e 40%,
+      #f0c52e 60%,
+      transparent 60%
+      );
+}
+.learn-more-button:hover,
+.learn-more-button:active {
+  background: #f0c52e;
+  color: #000000;
+}
+.learn-more-button:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+.table-cell {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #000000;
+  text-align: left; 
+}
+.table-cell-title {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000000;
+  text-align: left;  
+}
+.product-categories {
+  list-style: none;
+}
+.product-categories a {
+  color: #000000;
+}
+.category-link {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: none;
+  color: #000000;
+}
+.slider {
+  background-color: #e5e5e5;
+}
+.services-button {
+    font-family: "Gilroy", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border: 0;
+    background: linear-gradient(
+      transparent 40%,
+      #f0c52e 40%,
+      #f0c52e 60%,
+      transparent 60%
+      );  
+}
+.services-button:hover,
+.services-button:active {
+  background: #f0c52e;
+  color: #000000;
+}
+.services-button:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+.list-of-services {
+  list-style: none;
+}
+h3 {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 47px;
+  font-weight: 700;
+  text-transform: none;
+  color: #000000; 
+}
+p {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+  text-transform: none;
+  color: #000000;  
+}
+.brands-list {
+  list-style: none;
+}
+.info {
+  color: #000000;
+  background-color: #ffffff;
+  background-position: 0 0;
+}
+.delivery-list {
+  font-family: "Gilroy", "Arial", sans-serif;
+  list-style: none;
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #000000;
+}
+.more-about-us-button {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border: 0;
+  background: linear-gradient(
+    transparent 40%,
+    #f0c52e 40%,
+    #f0c52e 60%,
+    transparent 60%
+    );
+}
+.more-about-us-button:hover,
+.more-about-us-button:active {
+  background: #f0c52e;
+  color: #000000;
+}
+.more-about-us-button:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+.more-about-us-button a{
+  color: #000000;
+}
+.contact-us-button {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border: 0;
+  background: linear-gradient(
+    transparent 40%,
+    #f0c52e 40%,
+    #f0c52e 60%,
+    transparent 60%
+    );
+}
+.contact-us-button:hover,
+.contact-us-button:active {
+  background: #f0c52e;
+  color: #000000;
+}
+.contact-us-button:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+.contact-us-button a{
+  color: #000000;
+}
+.main-footer {
+  background-color: #464646;
+  opacity: 100%;
+}
