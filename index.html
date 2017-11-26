@@ -3,48 +3,49 @@
   <head>
     <meta charset="utf-8">
     <title>DEVICE</title>
-    <link rel="stylesheet" href="\css\normalize.css">
+    <link rel="stylesheet" href="D:\459375-device-master\css\normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet">
-    <link href="\fonts\stylesheet.css" rel="stylesheet">
-    <link href="\css\index.css" rel="stylesheet">
+    <link href="fonts\stylesheet.css" rel="stylesheet">
+    <link href="css\index.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
-      <a class="main-header-logo" href="#">
-        <img src="D:\459375-device-master/img/png/logo.png" width="164" height="36" alt="Логотип DEVICE">
+      <a class="main-header-logo" href="#"> 
+        <img src="img/png/logo.png" width="164" height="36" alt="Логотип DEVICE">
       </a>
-        <form action="#" method="get">
-          <img src="D:\459375-device-master/img/svg/search.svg" width="16" height="16" alt="Поиск"><input placeholder="Поиск по сайту" type="search">
+      <div class="main-container container-1">
+          <form class="search-form" action="https://echo.htmlacademy.ru">
+          <label class="visually-hidden" for="search-field">Поиск по сайту</label>
+          <div class="main-search"><img src="img/svg/search.svg" width="16" height="16" alt="Поиск">
+            <input placeholder="Поиск по сайту" id="search-field" type="search"></div>
         </form>
-          <div class="user-navigation">
-            <img src="D:\459375-device-master/img/svg/user.svg" width="13" height="12" alt="Иконка пользователя"><a class="login-link" href="#" title="Войти">Войти</a></li>
-          </div>
-          <ul class="main-menu-list">
-            <li class="compare"><img src="D:\459375-device-master/img/svg/compare.svg" width="10" height="10" alt="Иконка сравнить"><a class="compare-link" href="#" title="Сравнить товары">Сравнить</a></li>
-            <li class="cart"><img src="D:\459375-device-master/img/svg/cart.svg" width="12" height="12" alt="Корзина"><a class="basket-link" href="#" title="Оплатить покупку">Корзина</a></li>
+            <div class="login"><img class="login-image" src="img/svg/user.svg" width="13" height="12" alt="Иконка пользователя">
+              <a class="login-link" href="#" title="Войти">Войти</a></div>
+            <div class="compare"><img class="compare-image" src="img/svg/compare.svg" width="10" height="10" alt="Иконка сравнить">
+              <a class="compare-link" href="#" title="Сравнить товары">Сравнить</a></div>
+            <div class="cart"><img class="cart-image" src="img/svg/cart.svg" width="12" height="12" alt="Корзина">
+              <a class="basket-link" href="#" title="Оплатить покупку">Корзина</a></div>
+      </div>
+        <nav class="main-navigation">
+          <ul class="main-navigation-list">
+            <li class="main-navigation"><a class="main-navigation-link" href="#">Каталог товаров</a>
+              <img src="img/svg/plus.svg" width="16" height="16" alt="Плюс"></li>
+            <li class="main-navigation"><a class="main-navigation-link" href="#">Доставка</a></li>
+            <li class="main-navigation"><a class="main-navigation-link" href="#">Гарантия</a></li>
+            <li class="main-navigation"><a class="main-navigation-link" href="#">Контакты</a></li>
           </ul>
-          <nav class="main-navigation">
-            <ul class="main-navigation-list">
-              <li class="main-navigation"><a class="main-navigation-link" href="#">Каталог товаров</a><img src="D:\459375-device-master/img/svg/plus.svg" width="16" height="16" alt="Плюс"></li>
-              <li class="main-navigation"><a class="main-navigation-link" href="#">Доставка</a></li>
-              <li class="main-navigation"><a class="main-navigation-link" href="#">Гарантия</a></li>
-              <li class="main-navigation"><a class="main-navigation-link" href="#">Контакты</a></li>
-            </ul>
-          </nav>
-      </header>
+        </nav>
+    </header>
 
       <main class="container">
         <h1 class="visually-hidden">DEVICE</h1>
         <section class="product-slider">
           <h2 class="visually-hidden">Все о товаре</h2>
-          <ul class="main-image">
-            <li class="image"><img src="D:\459375-device-master/img/png/slider-1.png" width="384" height="486" alt="Селфи палка">
-          </ul>
-            <div class="product-description">
+          <div class="container-2">
+            <div><img class="picture" src="img/png/slider-1.png" width="384" height="486" alt="Селфи палка"></div>
               <p class="product-slogan">Делай селфи,<br> как Бен Стиллер!</p>
               <p class="products-text">Самая длинная палка для селфи доступна в нашем магазине.
                 Восемь (Восемь, Карл!) метров длинной и весом всего 5 килограмм.</p>
-            </div>
             <a class="learn-more-button" href="#">Подробнее</a>
             <table class="table">
               <tr class="line">
@@ -53,9 +54,9 @@
                 <td class="table-cell">Карбон</td>
               </tr>
               <tr class="line">
-                <td class="table-cell-title"><span>Длина палки</span></td>
-                <td class="table-cell-title"><span>Вес палки</span></td>
-                <td class="table-cell-title"><span>Материал</span></td>
+                <td class="table-cell-title">Длина палки</td>
+                <td class="table-cell-title">>Вес палки</td>
+                <td class="table-cell-title">Материал</td>
               </tr>
             </table>
           <ul class="popular-products-buttons">
@@ -63,27 +64,34 @@
             <li class="button-product"><button>Второй товар</button></li>
             <li class="button-product"><button>Третий товар</button></li>
           </ul>
+        </div>
         </section>
         <section class="popular-items">
           <h2 class="visually-hidden">Популярные товары</h2>
           <ul class="product-categories">
             <li class="categories">
-              <a class="category-link" href="#"><img src="D:\459375-device-master/img/png/virtual.png" width="160" height="160" alt="Виртуальные очки">Виртуальная реальность</a>
+              <a class="category-link" href="#">
+                <img src="img/png/virtual.png" width="160" height="160" alt="Виртуальные очки">Виртуальная реальность</a>
             </li>
             <li class="categories">
-              <a class="category-link" href="#"><img src="D:\459375-device-master/img/png/selfi.png" width="160" height="160" alt="Моноподы для селфи">Моноподы для селфи</a>
+              <a class="category-link" href="#">
+                <img src="img/png/selfi.png" width="160" height="160" alt="Моноподы для селфи">Моноподы для селфи</a>
             </li>
             <li class="categories">
-              <a class="category-link" href="#"><img src="D:\459375-device-master/img/png/camera.png" width="160" height="160" alt="Экшен-камера">Экшен камеры</a>
+              <a class="category-link" href="#">
+                <img src="img/png/camera.png" width="160" height="160" alt="Экшен-камера">Экшен камеры</a>
             </li>
             <li class="categories">
-              <a class="category-link" href="#"><img src="D:\459375-device-master/img/png/bracelet.png" width="160" height="160" alt="Фитнес браслеты">Фитнес браслеты</a>
+              <a class="category-link" href="#">
+                <img src="img/png/bracelet.png" width="160" height="160" alt="Фитнес браслеты">Фитнес браслеты</a>
             </li>
             <li class="categories">
-              <a class="category-link" href="#"><img src="D:\459375-device-master/img/png/clock.png" width="160" height="160" alt="Умные часы">Умные часы</a>
+              <a class="category-link" href="#">
+                <img src="img/png/clock.png" width="160" height="160" alt="Умные часы">Умные часы</a>
             </li>
             <li class="categories">
-              <a class="category-link" href="#"><img src="D:\459375-device-master/img/png/cvadro.png" width="160" height="160" alt="Квадрокоптеры">Квадрокоптеры</a>
+              <a class="category-link" href="#">
+                <img src="img/png/cvadro.png" width="160" height="160" alt="Квадрокоптеры">Квадрокоптеры</a>
             </li>
           </ul>
         </section>
@@ -104,22 +112,26 @@
               <p>Мы с удовольствием доставим ваш товар прямо к вашему
                 подъезду совершенно бесплатно! Ведь мы неплохо заработаем,
                 поднимая его на ваш этаж.</p>
-              <img src="D:\459375-device-master/img/png/delivery.png" width="136" height="164" alt="Курьер">
+              <img src="img/png/delivery.png" width="136" height="164" alt="Курьер">
         </section>
         <section class="site-manufacturers">
           <h2 class="visually-hidden">Бренды</h2>
             <ul class="brands-list">
-              <li class="partners">
-                <a class="partners-link" href="#"><img src="D:\459375-device-master/img/png/logo-1.png" width="260" height="100" alt="Dji"></a>
+              <li class="brands">
+                <a class="brands-link" href="#">
+                  <img src="img/png/logo-1.png" width="260" height="100" alt="Dji"></a>
               </li>
               <li class="partners">
-                <a class="partners-link" href="#"><img src="D:\459375-device-master/img/png/logo-5.png" width="260" height="100" alt="SP"></a>
+                <a class="brands-link" href="#">
+                  <img src="img/png/logo-5.png" width="260" height="100" alt="SP"></a>
               </li>
               <li class="partners">
-                <a class="partners-link" href="#"><img src="D:\459375-device-master/img/png/logo-3.png" width="260" height="100" alt="GoPro"></a>
+                <a class="brands-link" href="#">
+                  <img src="img/png/logo-3.png" width="260" height="100" alt="GoPro"></a>
               </li>
               <li class="partners">
-                <a class="partners-link" href="#"><img src="D:\459375-device-master/img/png/logo-4.png" width="260" height="100" alt="VIVE"></a>
+                <a class="brands-link" href="#">
+                  <img src="img/png/logo-4.png" width="260" height="100" alt="VIVE"></a>
               </li>
             </ul>
         </section>
@@ -143,14 +155,14 @@
             Заодно вы сможете проверить работоспособность покупки.
             Всякое бывает.
           </p>
-            <a href="#"><img src="D:\459375-device-master/img/png/map.png" width="560" height="222" alt="Карта"></a>
+            <a href="#"><img src="img/png/map.png" width="560" height="222" alt="Карта"></a>
             <a class="contact-us-button" href="#">Напишите нам</a>
         </section>
       </div>
       </main>
 
       <footer class="main-footer">
-        <img src="D:\459375-device-master/img/png/logo.png" width="163" height="36" alt="Логотип DEVICE">
+        <img src="img/png/logo.png" width="163" height="36" alt="Логотип DEVICE">
         <p class="footer-location">г. Москва, ул. Строителей, 15</p>
           <ul class="site-navigation">
             <li class="footer-services"><a class="footer-services-link" href="#">Доставка</a></li>
@@ -163,15 +175,18 @@
             <li class="social-item"><a class="social-link twitter" href="#">Твиттер</a></li>
           </ul>  
           <div class="footer-user-navigation">
-            <img src="D:\459375-device-master/img/svg/user.svg" width="13" height="12" alt="Иконка пользователя"><a class="footer-login-link" href="#" title="Войти">Войти</a></li>
+            <img src="img/svg/user.svg" width="13" height="12" alt="Иконка пользователя">
+            <a class="footer-login-link" href="#" title="Войти">Войти</a></li>
           </div>
           <ul>
-            <li class="footer-compare"><img src="D:\459375-device-master/img/svg/compare.svg" width="10" height="10" alt="Иконка сравнить"><a class="footer-compare-link" href="#" title="Сравнить товары">Сравнить</a></li>
-            <li class="footer-cart"><img src="D:\459375-device-master/img/svg/cart.svg" width="12" height="12" alt="Корзина"><a class="footer-basket-link" href="#" title="Оплатить покупку">Корзина</a></li>
+            <li class="footer-compare"><img src="img/svg/compare.svg" width="10" height="10" alt="Иконка сравнить">
+              <a class="footer-compare-link" href="#" title="Сравнить товары">Сравнить</a></li>
+            <li class="footer-cart"><img src="img/svg/cart.svg" width="12" height="12" alt="Корзина">
+              <a class="footer-basket-link" href="#" title="Оплатить покупку">Корзина</a></li>
           </ul>
           <p class="footer-contacts">
             <a href="tel:+74954959595">Тел.: +7(495) 495-95-95</a> 
-            <a href="#"><img src="D:\459375-device-master/img/svg/logo-html.svg" width="27" height="35" alt="Логотип html"></a>
+            <a href="#"><img src="img/svg/logo-html.svg" width="27" height="35" alt="Логотип html"></a>
       </footer>
 
       <section class="modal modal-write-us">
