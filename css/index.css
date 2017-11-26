@@ -1,21 +1,151 @@
 body {
+  box-sizing: border-box;
+  width: 1440px;
+  height: 2795px;
+
   margin: 0;
   padding: 0;
 
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 15px;
-  line-height: 30px;
-  font-weight: 400;
-  color: #000000
-  text-transform: uppercase;
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-size: 14px;
+  color: #000000;
+  width: 1440px;
+
+  background-color: #ffffff;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+
+  /* font-weight: normal; */
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+th {
+  font-weight: normal;
+}
+
+ .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} 
 }
 a {
   text-decoration: none;
 }
-.main-header {
-  background-color: #f7e296;
+/*Шапка*/
+.main-header-logo:hover {
+  opacity: 0.6;
 }
-.user-navigation a{
+.main-header-logo:active {
+  opacity: 0.3;
+}
+.user-navigation:hover {
+  opacity: 0.6;
+}
+.user-navigation:active {
+  opacity: 0.3;
+}
+.compare:hover {
+  opacity: 0.6;
+}
+.compare:active {
+  opacity: 0.3;
+}
+.cart:hover {
+  opacity: 0.6;
+}
+.cart:active {
+  opacity: 0.3;
+}
+li .main-navigation-link:hover {
+  opacity: 0.6;
+}
+li .main-navigation-link:active {
+  opacity: 0.3;
+}
+#search {
+  color: #000000;
+  background-color: #f7e296
+}
+.main-header {
+  background-image: linear-gradient(transparent 40px, #f7e296 40px);
+  width: 1160px;
+  height: 350px;
+  margin-top: 40px;
+  margin-left: 140px;
+
+}
+.main-header-logo {
+  margin-bottom: 45px;
+  margin-left: 60px;
+}
+.main-container {
+  display: flex;
+  height: 17px;
+}  
+.container-1 {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 52px;
+}
+.main-search {
+  margin-right: 70px;
+}
+.login {
+  margin-right: 10px;
+  margin-left: 70px;
+}
+.main-navigation {
+  display: inline;
+
+}
+.main-navigation-list {
+  margin-top: 50px;
+  margin-left: 25px;
+}
+/* Товар */
+
+.product-slider {
+  width: 1160px;
+}
+.container-2 {
+  flex-direction: row;
+  justify-content: space-around;
+}
+.product-slogan {
+  align-self: baseline;
+}
+.products-text {
+  align-self: baseline;
+}
+.picture {
+  float: left;
+  margin-left: 200px;
+}
+.user-navigation a {
   color: #000000;
 }
 .main-menu-list,
@@ -215,5 +345,11 @@ p {
 }
 .main-footer {
   background-color: #464646;
-  opacity: 100%;
+  opacity: 1.0;
+}
+li .brands-link {
+      filter: grayscale(1.0);
+}
+li .brands-link:hover {
+      filter: grayscale(0);
 }
