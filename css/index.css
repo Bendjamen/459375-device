@@ -106,7 +106,7 @@ li .main-navigation-link:active {
   display: flex;
   height: 17px;
 }  
-.container-1 {
+.container-one {
     flex-direction: row;
     justify-content: space-around;
     margin-top: 52px;
@@ -129,21 +129,58 @@ li .main-navigation-link:active {
 /* Товар */
 
 .product-slider {
-  width: 1160px;
+  display: flex;
+  flex-basis: 1015px;
 }
-.container-2 {
+.item-description {
   flex-direction: row;
-  justify-content: space-around;
+  padding-left: 125px;
+  margin-top: -80px;
 }
 .product-slogan {
-  align-self: baseline;
+  padding-top: -85px;
 }
 .products-text {
-  align-self: baseline;
+  width: 557px;
+  word-break: normal;
+  padding-bottom: 29px;
+  margin-top: -20px;
 }
 .picture {
   float: left;
-  margin-left: 200px;
+  margin-top: -100px;
+  margin-left: 220px;
+}
+.popular-products-buttons {
+  display: flex;
+  list-style: none;
+  margin-top: -175px;
+  margin-left: 145px;
+}
+.learn-more-button {
+  margin-left: 40px;
+}
+.table {
+  border-spacing: 80px 10px;
+  margin-top: 60px;
+  margin-left: -83px;
+}
+/* Популярные */
+.popular-items {
+  margin-left: 140px;
+  width: 1160px;
+  height: auto;
+}
+.product-categories {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+}
+.product-categories li:nth-child(1) {
+  width: 150px;
+}
+.product-categories li:nth-child(2) {
+  width: 100px;
 }
 .user-navigation a {
   color: #000000;
@@ -234,8 +271,32 @@ li .main-navigation-link:active {
   text-transform: none;
   color: #000000;
 }
+/* Услуги */
 .slider {
+  display: flex;
   background-color: #e5e5e5;
+  width: 1440px;
+  height: 288px;
+  margin-top: 166px;
+}
+.list-of-services {
+  padding-bottom: 60px;
+  margin-left: 140px;
+  margin-top: -25px;
+}
+.services-heading {
+  margin-left: 250px;
+  margin-top: -30px;
+}
+.services-description {
+  width: 430px;
+  height: 120px;
+  padding-top: 40px;
+  margin-left: -215px;
+}
+.icon {
+  margin-left: 120px;
+  margin-top: -15px;
 }
 .services-button {
     font-family: "Gilroy", "Arial", sans-serif;
@@ -277,13 +338,49 @@ p {
   text-transform: none;
   color: #000000;  
 }
+/* Бренды */
+.site-manufacturers {
+  width: 1440px;
+  height: 288px;
+}
+ul.brands-list {
+  margin: 0px;
+}
+ul.brands-list li {
+  display: inline;
+  justify-content: space-between
+}
+.image {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.brands-link {
+  margin-top: 140px;
+}
 .brands-list {
   list-style: none;
 }
+/* Инфо */
 .info {
-  color: #000000;
-  background-color: #ffffff;
-  background-position: 0 0;
+  display: flex;
+  width: 1440px;
+  height: 660px;
+}
+.about-us {
+  margin-left: 135px;
+}
+.company-description {
+  width: 430px;
+  height: 55px;
+  margin-top: 60px;
+}
+.article {
+  width: 475px;
+  height: 60px;
+  margin-top: 45px;
+}
+.delivery-list {
+  margin-top: 90px;
 }
 .delivery-list {
   font-family: "Gilroy", "Arial", sans-serif;
@@ -292,6 +389,27 @@ p {
   line-height: 40px;
   font-weight: 700;
   color: #000000;
+}
+.about-link {
+  padding-top: 50px;
+}
+.contact-company {
+  margin-left: 140px;
+}
+.contact-company-description {
+  width: 515px;
+  height: 50px;
+  margin-left: 140px;
+}
+.contact-company-description {
+  margin-top: 60px;
+}
+.map-link {
+  margin-top: 50px;
+  margin-left: 140px;
+}
+.contact-us-button {
+  margin-left: 140px;
 }
 .more-about-us-button {
   font-family: "Gilroy", "Arial", sans-serif;
@@ -343,12 +461,62 @@ p {
 .contact-us-button a{
   color: #000000;
 }
+/* Шапка */
 .main-footer {
   background-color: #464646;
-  opacity: 1.0;
+  width: 1440px;
+  height: 320px;
+}
+.footer-logo {
+  margin-left: 140px;
+  margin-top: 65px;
+}
+.footer-location {
+  margin-top: 50px;
+  margin-left: 140px;
+}
+.site-navigation {
+  list-style: none;
+}
+.footer-services {
+  display: inline;
+}
+.footer-services {
+  margin-left: 40px;
+}
+.user-nav {
+  list-style: none;
+}
+.social-item {
+  display: inline;
+}
+.user-nav {
+  display: inline;
+}
+.footer-nav {
+  margin-left: 1000px;
+  margin-top: -180px;
+  color: #ffffff;
+}
+.site-navigation {
+  margin-left: 450px;
+  color: #ffffff;
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  margin-top: -35px;
+}
+.social-list {
+  margin-left: 560px;
+}
+.tel-link {
+  margin-top: 50px;
+}
+.logo-link {
+  margin-left: 1300px;
+  margin-top: 50px;
 }
 li .brands-link {
-      filter: grayscale(1.0);
+    filter: grayscale(1,0);
 }
 li .brands-link:hover {
       filter: grayscale(0);
